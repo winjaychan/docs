@@ -24,8 +24,15 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ],
+    
     footer: {
       copyright: 'Copyright © 2019-present 粤ICP备2022104367号-1'
     }
-  }
+  },
+  head: [
+    [
+      'script',
+      { async:'', src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9489861553796481", crossorigin:"anonymous" }
+    ]
+  ],
 })
