@@ -24,5 +24,7 @@ features:
   - title: 算法知识
     details: 使用Java学习算法与数据结构，分享算法知识
     link: /algorithm/
+  - title: 其它
+    details: 其它实践知识分享
 ---
 
