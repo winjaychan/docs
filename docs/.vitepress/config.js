@@ -6,6 +6,9 @@ export default defineConfig({
   description: "云上学习，知识同享",
   lastUpdated: true,
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '我的主页', link: '/' },
