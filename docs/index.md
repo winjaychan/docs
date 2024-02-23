@@ -15,7 +15,7 @@ hero:
   #     link: /api-examples
 
 features:
-  - title: JVM
+  - title: JVM实践
     details: JVM知识体系，理论与实践的知识总结分享
     link: /jvm/
   - title: Java高并发实践

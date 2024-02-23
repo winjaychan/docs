@@ -30,18 +30,34 @@ export default defineConfig({
       // ],
       '/jvm/': [
         {
-          text: 'JVM实践',
+          text: '栏目简介',
           items: [
-            { text: '前言', link: '/jvm/' },
-            { text: 'jvm1', link: '/jvm/jvm1' }
+            { text: '前言', link: '/jvm/' }
           ]
+        },
+        {
+          text: 'JVM常用工具',
+          items: [
+            { text: 'arthas', link: '/jvm/tools/arthas' },
+          ]
+        },
+        {
+          text: 'JVM调优'
         }
       ],
       '/concurrency/': [
         {
-          text: '高并发实践',
+          text: '栏目简介',
           items: [
             { text: '前言', link: '/concurrency/' },
+          ]
+        }
+      ],
+      '/algorithm/': [
+        {
+          text: '栏目简介',
+          items: [
+            { text: '前言', link: '/algorithm/' },
           ]
         }
       ]
