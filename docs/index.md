@@ -20,8 +20,9 @@ features:
     link: /jvm/
   - title: Java高并发实践
     details: 构建Java高并发服务实践
-    link: /jvm/
+    link: /concurrency/
   - title: 算法知识
     details: 使用Java学习算法与数据结构，分享算法知识
+    link: /algorithm/
 ---
 

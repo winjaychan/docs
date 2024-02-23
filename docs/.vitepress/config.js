@@ -11,25 +11,34 @@ export default defineConfig({
       { text: '我的主页', link: '/' },
       // { text: 'Examples', link: '/markdown-examples' },
       { text: 'JVM实践', link: '/jvm/' },
-      { text: '算法知识', link: '/markdown-examples' }
+      { text: '高并发实践', link: '/concurrency/' },
+      { text: '算法知识', link: '/algorithm/' }
     ],
 
     sidebar: {
-      '/': [
-        {
-          text: 'Examples',
-          items: [
-            { text: 'Markdown Examples', link: '/markdown-examples' },
-            { text: 'Runtime API Examples', link: '/api-examples' }
-          ]
-        }
-      ],
+      // '/': [
+      //   {
+      //     text: 'Examples',
+      //     items: [
+      //       { text: 'Markdown Examples', link: '/markdown-examples' },
+      //       { text: 'Runtime API Examples', link: '/api-examples' }
+      //     ]
+      //   }
+      // ],
       '/jvm/': [
         {
           text: 'JVM实践',
           items: [
-            { text: 'Index', link: '/jvm/' },
+            { text: '前言', link: '/jvm/' },
             { text: 'jvm1', link: '/jvm/jvm1' }
+          ]
+        }
+      ],
+      '/concurrency/': [
+        {
+          text: '高并发实践',
+          items: [
+            { text: '前言', link: '/concurrency/' },
           ]
         }
       ]
@@ -45,9 +54,9 @@ export default defineConfig({
     //   }
     // ],
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ],
+    // socialLinks: [
+    //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+    // ],
     
     footer: {
       copyright: 'Copyright © 2019-present 粤ICP备2022104367号-1'
