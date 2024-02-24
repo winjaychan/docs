@@ -6,10 +6,10 @@ export default defineConfig({
   description: "云上学习，知识同享",
   lastUpdated: true,
   themeConfig: {
+    // https://vitepress.dev/reference/default-theme-config
     search: {
       provider: 'local'
     },
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '我的主页', link: '/' },
       // { text: 'Examples', link: '/markdown-examples' },
@@ -75,8 +75,7 @@ export default defineConfig({
 
     // socialLinks: [
     //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    // ],
-    
+    // ]
     footer: {
       copyright: 'Copyright © 2019-present 粤ICP备2022104367号-1'
     }
