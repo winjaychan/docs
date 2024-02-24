@@ -6,6 +6,11 @@ hero:
   name: "云上学习，知识同享"
   # text: "云上学习，知识同享"
   tagline: 技术分享、理论与实践结合，共同进步
+  actions:
+    - theme: alt
+      text: 快乐学习
+    - theme: alt
+      text: 各自成就
   # actions:
   #   - theme: brand
   #     text: Markdown Examples
@@ -13,6 +18,8 @@ hero:
   #   - theme: alt
   #     text: API Examples
   #     link: /api-examples
+  image:
+    src: /images/background.png
 
 features:
   - title: JVM实践
