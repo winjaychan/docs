@@ -15,6 +15,10 @@ export default defineConfig({
       level: [2,6],
       label: '页面导航'
     },
+    docFooter:{
+      prev: '上一页',
+      next: '下一页'
+    },
     nav: [
       { text: '我的主页', link: '/' },
       // { text: 'Examples', link: '/markdown-examples' },
