@@ -11,6 +11,10 @@ export default defineConfig({
     search: {
       provider: 'local'
     },
+    outline: {
+      level: [2,6],
+      label: '页面导航'
+    },
     nav: [
       { text: '我的主页', link: '/' },
       // { text: 'Examples', link: '/markdown-examples' },
@@ -39,6 +43,7 @@ export default defineConfig({
         {
           text: 'JVM常用工具',
           items: [
+            { text: 'jvm命令', link: '/jvm/tools/jvm_commands' },
             { text: 'arthas', link: '/jvm/tools/arthas' },
           ]
         },
