@@ -25,6 +25,9 @@ features:
   - title: JVM实践
     details: JVM知识体系，理论与实践的知识总结分享
     link: /jvm/
+  - title: AI大语言模型
+    details: 了解并学习当时最火的AI大语言模型，接触人工智能
+    link: /ai/
   - title: Java高并发实践
     details: 构建Java高并发服务实践
     link: /concurrency/
