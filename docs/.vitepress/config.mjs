@@ -110,7 +110,7 @@ export default defineConfig({
       'meta',
       {name: 'keywords', content: '云学习, AI, JVM, 高并发, 算法'}
     ],
-    <meta name="google-site-verification" content="DqaJ5af0X2ZDs294k3G-JzOtkAlKW0zPiqgnCcZ2OdI" />
+    // <meta name="google-site-verification" content="DqaJ5af0X2ZDs294k3G-JzOtkAlKW0zPiqgnCcZ2OdI" />
     //<meta name="google-site-verification" content="DqaJ5af0X2ZDs294k3G-JzOtkAlKW0zPiqgnCcZ2OdI" />
     [
       'meta',
