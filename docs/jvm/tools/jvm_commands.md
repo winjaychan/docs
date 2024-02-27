@@ -61,7 +61,7 @@ jstack主要用来查看某个java进程内的线程栈信息。命令格式如�
 
 ```shell
 jstack [option] <pid>
-jstack [option] executablecore
+jstack [option] executable core
 jstack [option] [server-id@]remote-hostname-or-ip
 ```
 

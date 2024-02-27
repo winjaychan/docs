@@ -23,6 +23,7 @@ export default defineConfig({
       { text: '我的主页', link: '/' },
       // { text: 'Examples', link: '/markdown-examples' },
       { text: 'JVM实践', link: '/jvm/' },
+      { text: 'AI大模型', link: '/ai/' },
       { text: '高并发实践', link: '/concurrency/' },
       { text: '算法知识', link: '/algorithm/' }
     ],
@@ -53,6 +54,20 @@ export default defineConfig({
         },
         {
           text: 'JVM调优'
+        }
+      ],
+      '/ai/': [
+        {
+          text: 'AI大模型',
+          items: [
+            {text: '前言', link: '/ai/'},
+          ]
+        },
+        {
+          text: '大型语言模型工具',
+          items: [
+            {text: 'Ollama', link: '/ai/tools/ollama'},
+          ]
         }
       ],
       '/concurrency/': [
@@ -92,8 +107,18 @@ export default defineConfig({
   },
   head: [
     [
+      'meta',
+      {'keywords': '云学习, AI, JVM, 高并发, 算法'}
+    ],
+    //<meta name="google-site-verification" content="DqaJ5af0X2ZDs294k3G-JzOtkAlKW0zPiqgnCcZ2OdI" />
+    [
+      'meta',
+      {'google-site-verification': 'DqaJ5af0X2ZDs294k3G-JzOtkAlKW0zPiqgnCcZ2OdI'}
+    ],
+    [
       'script',
       { async:"true", src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9489861553796481", crossorigin:"anonymous" }
     ]
+
   ],
 })
