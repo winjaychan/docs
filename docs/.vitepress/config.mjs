@@ -87,7 +87,7 @@ export default defineConfig({
     //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     // ]
     footer: {
-      copyright: 'Copyright © 2019-present 粤ICP备2022104367号-1'
+      copyright: 'Copyright © 2022-present 粤ICP备2022104367号-1'
     }
   },
   head: [
