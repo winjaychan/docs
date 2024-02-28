@@ -51,3 +51,10 @@ ollama -v
 ```
 
 <img src="./assets/image-20240228001519686.png" alt="image-20240228001519686" style="zoom:50%" />
+
+<style module>
+  img {
+    margin: 0 auto;
+  }
+</style>
+

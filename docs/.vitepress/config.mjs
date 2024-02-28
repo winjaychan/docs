@@ -5,6 +5,10 @@ export default defineConfig({
   title: "云学习",
   description: "云上学习，知识同享",
   lastUpdated: true,
+  sitemap:{
+    hostname:'https://wwwcloud.com.cn',
+    lastmodDateOnly: false
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/images/logo.png',
