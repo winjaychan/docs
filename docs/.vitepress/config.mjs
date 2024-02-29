@@ -7,7 +7,7 @@ export default defineConfig({
   lastUpdated: true,
   sitemap:{
     hostname:'https://wwwcloud.com.cn',
-    lastmodDateOnly: false
+    lastmodDateOnly: false,
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -24,12 +24,12 @@ export default defineConfig({
       next: '下一页'
     },
     nav: [
-      { text: '我的主页', link: '/' },
+      { text: '我的主页', link: '/index' },
       // { text: 'Examples', link: '/markdown-examples' },
-      { text: 'JVM实践', link: '/jvm/' },
-      { text: 'AI大模型', link: '/ai/' },
-      { text: '高并发实践', link: '/concurrency/' },
-      { text: '算法知识', link: '/algorithm/' }
+      { text: 'JVM实践', link: '/jvm/index' },
+      { text: 'AI大模型', link: '/ai/index' },
+      { text: '高并发实践', link: '/concurrency/index' },
+      { text: '算法知识', link: '/algorithm/index' }
     ],
 
     sidebar: {
@@ -46,7 +46,7 @@ export default defineConfig({
         {
           text: '栏目简介',
           items: [
-            { text: '前言', link: '/jvm/' }
+            { text: '前言', link: '/jvm/index' }
           ]
         },
         {
@@ -64,13 +64,20 @@ export default defineConfig({
         {
           text: 'AI大模型',
           items: [
-            {text: '前言', link: '/ai/'},
+            {text: '前言', link: '/ai/index'},
           ]
         },
         {
           text: '大型语言模型工具',
           items: [
             {text: 'Ollama', link: '/ai/tools/ollama'},
+            {text: 'Open WebUI工具', link: '/ai/tools/open-webui'},
+          ]
+        },
+        {
+          text: 'Gemma模型',
+          items: [
+            {text: 'Gemma初体验', link: '/ai/llm/gemma/gemma_experience'},
           ]
         }
       ],
@@ -78,7 +85,7 @@ export default defineConfig({
         {
           text: '栏目简介',
           items: [
-            { text: '前言', link: '/concurrency/' },
+            { text: '前言', link: '/concurrency/index' },
           ]
         }
       ],
@@ -86,7 +93,7 @@ export default defineConfig({
         {
           text: '栏目简介',
           items: [
-            { text: '前言', link: '/algorithm/' },
+            { text: '前言', link: '/algorithm/index' },
           ]
         }
       ]

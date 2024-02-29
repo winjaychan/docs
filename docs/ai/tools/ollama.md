@@ -39,7 +39,7 @@ Ollama将模型权重、配置和数据捆绑到一个包中，定义成Modelfil
 
 ```shell
 docker pull ollama/ollama
-docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
+docker run -d -v /data/ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
 ```
 
 ### 安装验证
