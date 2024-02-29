@@ -24,12 +24,12 @@ export default defineConfig({
       next: '下一页'
     },
     nav: [
-      { text: '我的主页', link: '/index' },
+      { text: '我的主页', link: '/' },
       // { text: 'Examples', link: '/markdown-examples' },
-      { text: 'JVM实践', link: '/jvm/index' },
-      { text: 'AI大模型', link: '/ai/index' },
-      { text: '高并发实践', link: '/concurrency/index' },
-      { text: '算法知识', link: '/algorithm/index' }
+      { text: 'JVM实践', link: '/jvm/' },
+      { text: 'AI大模型', link: '/ai/' },
+      { text: '高并发实践', link: '/concurrency/' },
+      { text: '算法知识', link: '/algorithm/' }
     ],
 
     sidebar: {
@@ -46,7 +46,7 @@ export default defineConfig({
         {
           text: '栏目简介',
           items: [
-            { text: '前言', link: '/jvm/index' }
+            { text: '前言', link: '/jvm/' }
           ]
         },
         {
@@ -64,7 +64,7 @@ export default defineConfig({
         {
           text: 'AI大模型',
           items: [
-            {text: '前言', link: '/ai/index'},
+            {text: '前言', link: '/ai/'},
           ]
         },
         {
@@ -85,7 +85,7 @@ export default defineConfig({
         {
           text: '栏目简介',
           items: [
-            { text: '前言', link: '/concurrency/index' },
+            { text: '前言', link: '/concurrency/' },
           ]
         }
       ],
@@ -93,7 +93,7 @@ export default defineConfig({
         {
           text: '栏目简介',
           items: [
-            { text: '前言', link: '/algorithm/index' },
+            { text: '前言', link: '/algorithm/' },
           ]
         }
       ]
