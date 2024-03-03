@@ -79,6 +79,12 @@ export default defineConfig({
           items: [
             {text: 'Gemma初体验', link: '/ai/llm/gemma/gemma_experience'},
           ]
+        },
+        {
+          text: 'Spring生态',
+          items: [
+            {text: 'Spring AI', link: '/ai/spring/spring-ai'},
+          ]
         }
       ],
       '/concurrency/': [
