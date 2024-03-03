@@ -1,6 +1,6 @@
 # Spring AI
 
-SpringSpring 官方宣布SpringAI已经上架到Spring Initializr上，它提供了一种更简法的方式和AI进行交互，减轻Java业务中接入LLM模型应用的学习成本，使得Java重态接入LLM大语言模型变得更加简单和便捷！
+SpringSpring 官方宣布SpringAI已经上架到Spring Initializr上，它提供了一种更简法的方式和AI进行交互，减轻Java业务中接入LLM模型应用的学习成本，使得Java生态接入LLM大语言模型变得更加简单和便捷！
 
 ## Spring AI是什么
 
