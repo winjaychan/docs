@@ -17,11 +17,11 @@ export default defineConfig({
     },
     outline: {
       level: [2,6],
-      label: '页面导航'
+      label: '页内导航'
     },
     docFooter:{
-      prev: '上一页',
-      next: '下一页'
+      prev: '上一篇',
+      next: '下一篇'
     },
     nav: [
       { text: '我的主页', link: '/' },
@@ -100,6 +100,14 @@ export default defineConfig({
           text: '栏目简介',
           items: [
             { text: '前言', link: '/algorithm/' },
+          ]
+        }
+      ],
+      '/others/': [
+        {
+          text: '栏目简介',
+          items: [
+            { text: '前言', link: '/others/' },
           ]
         }
       ]
