@@ -1,5 +1,12 @@
+---
+createTime: 2024-02-01 08:00
+---
+
+
+
 # JVM命令
 
+<ArticleInfo/>
 本文介绍常的JDK/JRE内置jvm相关命令。
 
 ## jmap
