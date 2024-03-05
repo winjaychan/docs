@@ -1,4 +1,14 @@
+---
+createTime: 2024-02-27 08:12
+---
+
+# Ollama
+
+<ArticleInfo/>
+
 ## Ollama是什么
+
+
 
 Ollama是一款开源的大型语言模型工具，专注于为用户提供本地化的运行环境，满足个性化的需求。该工具允许用户快速运行Llama2、Code Llama等多种模型，并提供类似于OpenAI的API接口和聊天界面，方便用户部署和使用最新版本的GPT模型。
 
@@ -50,11 +60,7 @@ docker run -d -v /data/ollama:/root/.ollama -p 11434:11434 --name ollama ollama/
 ollama -v
 ```
 
-<img src="./assets/image-20240228001519686.png" alt="image-20240228001519686" style="zoom:50%" />
+<img src="./assets/image-20240228001519686.png" alt="image-20240228001519686" style="zoom:50%" class="snapshot-center"/>
 
-<style module>
-  img {
-    margin: 0 auto;
-  }
-</style>
+
 
