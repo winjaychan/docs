@@ -1,5 +1,10 @@
 ---
-createTime: 2024-02-01 08:00
+{
+  "createTime": "2024-02-01 08:00",
+  "articleLabels": ["JAVA", "JVM", "内存"],
+  "articleType" : "原创",
+  "head": [["meta",{"name":"keywords","content":"JVM, jmap, jinfo, jstack, jstat"}]]
+}
 ---
 
 

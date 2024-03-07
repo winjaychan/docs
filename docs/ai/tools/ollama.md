@@ -1,5 +1,9 @@
 ---
-createTime: 2024-02-27 08:12
+{
+  "createTime": "2024-02-27 08:22",
+  "articleLabels": ["AI", "大语言模型", "云学习"],
+  "articleType" : "原创"
+}
 ---
 
 # Ollama
