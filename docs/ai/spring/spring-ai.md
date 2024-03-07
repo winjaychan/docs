@@ -1,4 +1,16 @@
+---
+{
+  "createTime": "2024-03-02 21:05",
+  "articleLabels": ["AI", "大语言模型", "Spring AI", "云学习"],
+  "articleType" : "翻译"
+}
+---
+
+
+
 # Spring AI
+
+<ArticleInfo/>
 
 SpringSpring 官方宣布SpringAI已经上架到Spring Initializr上，它提供了一种更简法的方式和AI进行交互，减轻Java业务中接入LLM模型应用的学习成本，使得Java生态接入LLM大语言模型变得更加简单和便捷！
 

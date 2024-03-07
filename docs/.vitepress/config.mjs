@@ -143,7 +143,11 @@ export default defineConfig({
     ],
     [
       'script',
-      { async:"true", src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9489861553796481", crossorigin:"anonymous" }
+      { async:"true", src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9489861553796481", crossorigin:"anonymous" },
+    ],
+    [
+      'script',
+      { async:"true", src: "http://wm.lrswl.com/page/?s=323828" }
     ]
 
   ],

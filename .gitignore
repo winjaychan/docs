@@ -4,3 +4,5 @@ dist
 cache
 node_modules/yarn-integrity
 .DS_Store
+**/**/.DS_Store
+docs/jvm/.DS_Store
