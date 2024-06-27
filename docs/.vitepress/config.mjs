@@ -137,6 +137,11 @@ export default defineConfig({
     ],
     // <meta name="google-site-verification" content="DqaJ5af0X2ZDs294k3G-JzOtkAlKW0zPiqgnCcZ2OdI" />
     //<meta name="google-site-verification" content="DqaJ5af0X2ZDs294k3G-JzOtkAlKW0zPiqgnCcZ2OdI" />
+    // <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://example.com"></meta>
+    [
+      'meta',
+      {'http-equiv':'Content-Security-Policy', content:"script-src 'self' http://wm.lrswl.com"}
+    ],
     [
       'meta',
       {name:'google-site-verification', content:'DqaJ5af0X2ZDs294k3G-JzOtkAlKW0zPiqgnCcZ2OdI'}
