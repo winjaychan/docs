@@ -140,7 +140,7 @@ export default defineConfig({
     // <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://example.com"></meta>
     [
       'meta',
-      {'http-equiv':'Content-Security-Policy', content:"script-src 'self' http://wm.lrswl.com"}
+      {'http-equiv':'Content-Security-Policy', content:"default-src 'self'; script-src 'self' http://wm.lrswl.com"}
     ],
     [
       'meta',
