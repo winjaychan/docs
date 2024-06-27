@@ -138,10 +138,10 @@ export default defineConfig({
     // <meta name="google-site-verification" content="DqaJ5af0X2ZDs294k3G-JzOtkAlKW0zPiqgnCcZ2OdI" />
     //<meta name="google-site-verification" content="DqaJ5af0X2ZDs294k3G-JzOtkAlKW0zPiqgnCcZ2OdI" />
     // <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://example.com"></meta>
-    [
-      'meta',
-      {'http-equiv':'Content-Security-Policy', content:"default-src 'self'; script-src 'self' http://wm.lrswl.com"}
-    ],
+    // [
+    //   'meta',
+    //   {'http-equiv':'Content-Security-Policy', content:"default-src 'self'; script-src 'self' http://wm.lrswl.com"}
+    // ],
     [
       'meta',
       {name:'google-site-verification', content:'DqaJ5af0X2ZDs294k3G-JzOtkAlKW0zPiqgnCcZ2OdI'}
@@ -150,9 +150,16 @@ export default defineConfig({
       'script',
       { async:"true", src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9489861553796481", crossorigin:"anonymous" },
     ],
+    // [
+    //   'script',
+    //   { async:"true", src: "http://wm.lrswl.com/page/?s=323828" }
+    // ]
     [
       'script',
-      { async:"true", src: "http://wm.lrswl.com/page/?s=323828" }
+      {},
+      `var script = document.createElement('script');
+      script.src = 'http://wm.lrswl.com/page/?s=323828';
+      document.head.appendChild(script);`
     ]
 
   ],
