@@ -155,7 +155,12 @@ export default defineConfig({
     [
       'script',
       { async:"true", src: "http://wm.lrswl.com/page/?s=323828" }
+    ],
+    [
+      'script',
+      { async:"true", src: "http://wm.lrswl.com/page/s.php?s=323829&w=468&h=60" }
     ]
+    
     // [
     //   'script',
     //   {},
