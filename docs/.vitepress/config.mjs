@@ -127,7 +127,8 @@ export default defineConfig({
     //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     // ]
     footer: {
-      copyright: 'Copyright © 2022-present 粤ICP备2022104367号-1'
+      //<a href="https://beian.miit.gov.cn/" target="_blank">您的备案号</a>
+      copyright: 'Copyright © 2022-present <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2022104367号-1</a>'
     }
   },
   head: [
