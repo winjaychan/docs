@@ -53,7 +53,13 @@ export default defineConfig({
           text: 'JVM常用工具',
           items: [
             { text: 'jvm命令', link: '/jvm/tools/jvm_commands' },
-            { text: 'arthas', link: '/jvm/tools/arthas' },
+            { text: 'Arthas', link: '/jvm/tools/arthas' },
+          ]
+        },
+        {
+          text: 'Arthas实践',
+          items: [
+            { text: 'ognl之线程操作', link: '/jvm/tools/arthas/practice/ognl-thread' },
           ]
         },
         {
