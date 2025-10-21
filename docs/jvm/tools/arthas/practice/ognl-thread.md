@@ -8,6 +8,27 @@
 # 线程操作
 <ArticleInfo/>
 
+使用Arthas实现如下的Java操作效果
+
+```java
+public class ThreadKiller {
+    public static void killThreadByName(String threadName) {
+        Thread.getAllStackTraces().keySet().stream()
+            .filter(t -> t.getName().equals(threadName))
+            .findFirst()
+            .ifPresent(Thread::stop);
+    }
+    
+    // 使用示例
+    public static void main(String[] args) {
+        killThreadByName("http-nio-8084-Acceptor");
+        killThreadByName("http-nio-8084-Poller");
+    }
+}
+```
+
+
+
 ## 根据线程名称查找线程
 
 ```java
