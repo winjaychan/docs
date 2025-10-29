@@ -115,6 +115,12 @@ export default defineConfig({
           items: [
             { text: '前言', link: '/others/' },
           ]
+        } ,
+        {
+          text: 'Lombok',
+          items: [
+            { text: '集成Lombok', link: '/others/tools/lombok/lombok.md' }
+          ]
         }
       ]
     },
