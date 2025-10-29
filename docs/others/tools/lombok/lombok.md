@@ -10,6 +10,8 @@
 
 <ArticleInfo/>
 
+Lombok 是一个 **Java 编译期注解处理工具（Annotation Processor）**，用于**简化样板代码（boilerplate code）** 的编写。
+
 ## SpringBoot集成Lombok
 
 在pom.xml文件中引入以下依赖
